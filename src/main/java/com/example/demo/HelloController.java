@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
-		return "I don't have a DataBase right now. Sorry!";
+		return "I don't have a DataBase right now. However, I was deployed using AWS CodePipeline!";
 	}
 
 }
